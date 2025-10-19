@@ -423,7 +423,7 @@ header nav ul li a:hover {
 #reviews h1 span {
   color: #00bfff;
 }
-.rbb-p{
+.rbb-p {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -449,7 +449,7 @@ header nav ul li a:hover {
   background-color: #0000005e;
   position: relative;
 }
-.top-left{
+.top-left {
   display: none;
 }
 .swipe {
@@ -706,6 +706,7 @@ footer {
   list-style: none;
   display: flex;
   gap: 30px;
+  text-align: center;
 }
 
 .footer-nav ul li a {
@@ -838,7 +839,6 @@ footer {
     padding: 0 15px;
   }
   /* --review----- */
- 
 }
 
 @media (max-width: 576px) {
@@ -935,22 +935,24 @@ footer {
   }
 }
 
-@media (max-width: 1157px){
-  .review-box-box, .review-box {
+@media (max-width: 1157px) {
+  .review-box-box,
+  .review-box {
     width: 600px;
     height: 400px;
   }
-  .review-box-box{
+  .review-box-box {
     overflow: scroll;
   }
 
-  #left, #right{
+  #left,
+  #right {
     display: none;
   }
-  
 }
-@media (max-width: 644px){
-  .review-box-box, .review-box{
+@media (max-width: 644px) {
+  .review-box-box,
+  .review-box {
     width: 100%;
     height: 700px;
   }

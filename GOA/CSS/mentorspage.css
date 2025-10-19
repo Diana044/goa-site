@@ -369,6 +369,10 @@ footer {
   .header-services a {
     font-size: 14px;
   }
+  /* mentors */
+  #mentors{
+    padding: 0;
+  }
 
   /* -----foter---------- */
   footer {
