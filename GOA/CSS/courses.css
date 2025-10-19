@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Sora", sans-serif;
+  background-color: #010813;
+  color: #cceeff;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+.font1 {
+  font-family: "Source Code Pro", monospace;
+}
+.sora {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.Orbitronj {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.top-left {
+  position: fixed;
+  width: 690px;
+  height: 500px;
+  top: 0;
+  left: 0;
+}
+
+/* -------------------- HEADER -------------------- */
+header {
+  display: flex;
+  border: 2px solid #00bfff;
+  border-radius: 24px;
+  color: #cceeff;
+  margin: 60px 80px;
+  position: relative;
+  z-index: 1;
+  background-color: #001b2e;
+  transition: background-color 0.3s ease;
+}
+
+header:hover {
+  background-color: #002b47;
+}
+
+.header-img-div {
+  border-right: 2px solid #00bfff;
+  padding: 25px 100px;
+}
+
+.header-img {
+  width: 65px;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header-nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #00bfff;
+}
+
+header nav {
+  max-width: 1190px;
+  width: 100%;
+  height: 56px;
+  border-right: 2px solid #00bfff;
+}
+
+header nav ul {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.main-li {
+  background-color: #0066cc;
+  color: #e0f7ff;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s ease-out;
+  box-shadow: 0px 0px 15px #00bfff33;
+}
+.main-li:hover {
+  background-color: #0099ff;
+  color: #ffffff;
+}
+header nav ul li a {
+  font-family: "Orbitron", sans-serif;
+  color: #cceeff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+header nav ul li a:hover {
+  color: #00bfff;
+}
+
+/*------------ burger menu ----------------*/
+.burger-menu-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  height: 56px;
+  cursor: pointer;
+  border-left: 2px solid #00bfff;
+  border-top-right-radius: 24px;
+}
+
+/* -------------second row socials andn joinus -------------------*/
+.header-row2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 1400px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* joins us and socials divs */
+.header-services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  font-family: "Source Code Pro", monospace;
+}
+
+.header-services div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #cceeff;
+}
+
+.header-services div a {
+  color: #99eaff;
+  font-weight: 700;
+}
+.border-right {
+  border-right: 2px solid #00bfff;
+}
+/* ----------maain content000000000000 */
+main {
+  padding: 40px 80px;
+  color: #cceeff;
+  background-color: #010813;
+}
+/* -------------Hero ----------- */
+#hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hero-container h1 {
+  font-family: "Orbitron", sans-serif;
+  color: #00bfff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-shadow: 0 0 15px #00bfff55;
+}
+
+.hero-p{
+  font-size: 18px;
+  color: #a9dfff;
+  letter-spacing: 0.5px;
+}
+
+/* ---------Course all sections---------- */
+.course-section {
+  border: 1px solid #00bfff;
+  box-shadow: 0 0 15px #00bfff33;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 40px;
+  background-color: #001b2e;
+  transition: 0.3s ease;
+}
+
+.course-section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 30px #00bfff87;
+}
+
+.course-section h2 {
+  color: #00bfff;
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 15px;
+}
+
+.course-section p {
+  color: #a8e0ff;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.course-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course-section li {
+  margin: 6px 0;
+  font-size: 1rem;
+}
+
+.price {
+  color: #00bfff;
+  font-weight: 600;
+}
+
+/* ------------footerr----------- */
+/* ----------------------------- */
+footer {
+  border: 2px solid #00bfff;
+  border-radius: 24px;
+  background-color: #001020;
+  color: #cceeff;
+  margin: 60px 80px;
+  padding: 40px 60px;
+  font-family: "Sora", sans-serif;
+}
+
+/* footer top  logo with text and navigation*/
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #00bfff;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+/* ---------------logo   text------------*/
+.footer-logo {
+  font-family: "Orbitron", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #00bfff;
+  letter-spacing: 1px;
+}
+
+/* -------------navigation -------------*/
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.footer-nav ul li a {
+  color: #99d9ff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-nav ul li a:hover {
+  color: #00bfff;
+}
+
+/* footer second row2 with socials adn all rigth reserrved */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  border-top: 2px solid #00bfff;
+  padding-top: 20px;
+  color: #99d9ff;
+}
+
+/* ---------social ---------------- */
+.footer-socials {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-socails a {
+  mix-blend-mode: difference;
+  background-color: #00bfff;
+}
+
+/* ---------------media------------------------- */
+@media (max-width: 1340px) {
+  /* -------------header------------- */
+  header {
+    margin: 60px 30px;
+  }
+  .header-img-div {
+    padding: 20px 60px;
+  }
+  header nav {
+    display: none;
+    border-right: none;
+  }
+  .header-img img {
+    width: 120%;
+  }
+  .header-nav-menu {
+    justify-content: end;
+  }
+  .burger-menu-div {
+    border: none;
+  }
+}
+@media (max-width: 576px) {
+  /* --------header----------- */
+  header {
+    margin: 20px 20px;
+  }
+  .header-img-div {
+    padding: 10px 40px;
+  }
+  .header-services img {
+    display: none;
+  }
+  .header-services a {
+    font-size: 14px;
+  }
+  /* -----hero----------- */
+  main {
+    padding: 30px 25px;
+  }
+  .hero-container h1 {
+    font-size: 1.6rem;
+  }
+  .course-section {
+    padding: 20px;
+  }
+  /* -----foter---------- */
+  footer {
+    margin: 40px 20px;
+    padding: 40px;
+    text-align: center;
+  }
+  .footer-top,
+  .footer-nav ul,
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
